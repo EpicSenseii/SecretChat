@@ -1,0 +1,39 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#chat-window {
+  width: 80%;
+  height: 40%;
+  border: 1px solid #ccc;
+  overflow-y: scroll;
+  border-radius: 10px;
+}
+
+#chat-messages {
+  list-style: none;
+  padding: 0;
+}
+
+#chat-input {
+  width: 400px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+#send-button {
+  padding: 10px;
+  font-size: 14px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
